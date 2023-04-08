@@ -1,5 +1,18 @@
+.main-content {
+	height: 10000px;
+}
+
+.sign-in-btn {
+	font-weight: bold;
+}
+
+a.text-success:hover {
+	color: limegreen!important;
+}
+
+
 @media (min-width: 992px) {
-	.sign-in{
+	.fixed-lg{
 		width: 720px;
 	}
 }

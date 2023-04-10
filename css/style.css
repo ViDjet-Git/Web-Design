@@ -17,6 +17,17 @@ a.text-success:hover {
 	font-size: 1.1em;
 }
 
+.description-vote {
+	font-size: 1.1em;
+}
+
+.rd-size {
+	height:25px; 
+	width:25px;
+	accent-color: green;
+	margin-top: 0!important;
+}
+
 @media (min-width: 992px) {
 	.fixed-lg{
 		width: 720px;

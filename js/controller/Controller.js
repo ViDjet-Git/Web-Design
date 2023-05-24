@@ -5,8 +5,7 @@ var active;
 
 export default class Controller {
 
-    constructor(itemListModel, itemListView) {
-        this.itemListModel = itemListModel;
+    constructor(itemListView) {
         this.itemListView = itemListView;     
         if(window.location.pathname.split('/').pop() == 'create.html'){
             document.querySelector('#add').addEventListener('click', (e)=>this.onAddItem(e));

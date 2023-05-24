@@ -1,4 +1,3 @@
-import ItemView from './ItemView.js';
 export default class ItemListView {
     constructor(itemListModel) {
         this.itemListModel = itemListModel;
@@ -16,9 +15,7 @@ export default class ItemListView {
         endRow.classList.add('to-end');
         tbody.appendChild(endRow);
         document.querySelector('.to-do').innerHTML = this.toHtml();
-        //document.querySelector('.to-do').classList.remove('to-do');
         document.querySelector('.to-end').innerHTML = this.endHtml();
-        //document.querySelector('.to-end').classList.remove('to-end');
     }
 
     toHtml() {
